@@ -72,11 +72,14 @@ Features :
                 const crown = data.User.Crowns;
                 
                 console.log(`\r
+Sabar Bro Delay!! 
+${chalk.bgRed('BY Ramakull')}
+
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${chalk.bgMagenta(`Negara By Ramakull : ${country}`)}
-→  ${chalk.bgYellow(`Nama By Ramakull : ${username}`)}
-→  ${chalk.bgCyan(`Exp By Ramakull: ${exp}`)}  
-→  ${chalk.bgMagenta(`Tropy By Ramakull : ${trophy}`)}  
+→  ${chalk.magenta(`Negara By Ramakull : ${country}`)}
+→  ${chalk.yellow(`Nama By Ramakull : ${username}`)}
+→  ${chalk.cyan(`Exp By Ramakull: ${exp}`)}  
+→  ${chalk.blue(`Tropy By Ramakull : ${trophy}`)}  
 →  ${chalk.bgRed(`Crown By Ramakull : ${crown}`)}
 →  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
