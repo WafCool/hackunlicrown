@@ -73,11 +73,11 @@ Features :
                 
                 console.log(`\r
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${chalk.white(`Negara By Ramakull : ${country}`)}
-→  ${chalk.cyan(`Nama By Ramakull : ${username}`)}
-→  ${chalk.cyan(`Exp By Ramakull: ${exp}`)}  
-→  ${chalk.yellow(`Tropy By Ramakull : ${trophy}`)}  
-→  ${chalk.yellow(`Crown By Ramakull : ${crown}`)}
+→  ${chalk.bgMagenta(`Negara By Ramakull : ${country}`)}
+→  ${chalk.bgYellow(`Nama By Ramakull : ${username}`)}
+→  ${chalk.bgCyan(`Exp By Ramakull: ${exp}`)}  
+→  ${chalk.bgMagenta(`Tropy By Ramakull : ${trophy}`)}  
+→  ${chalk.bgRed(`Crown By Ramakull : ${crown}`)}
 →  ${chalk.green(`Status : ✔ Success`)}`);
         await delay(time);
 
