@@ -78,7 +78,7 @@ Features :
 →  ${chalk.bgCyan(`Exp By Ramakull: ${exp}`)}  
 →  ${chalk.bgMagenta(`Tropy By Ramakull : ${trophy}`)}  
 →  ${chalk.bgRed(`Crown By Ramakull : ${crown}`)}
-→  ${chalk.green(`Status : ✔ Success`)}`);
+→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
