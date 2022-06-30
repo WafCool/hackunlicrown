@@ -30,9 +30,9 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ███████    ██    ██    ██ ██ ████ ██ ██████  ██      █████          
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
 ███████    ██     ██████  ██      ██ ██████  ███████ ███████    
-𝘽𝙔 : Zexxy
+𝘽𝙔 : Waf
                                                     
-By : ${chalk.red('@Zexxy')} - ${chalk.blue('@Zexxy yang paling ganteng/')}
+By : ${chalk.red('@Waf')} - ${chalk.blue('@Waf/')}
 Features :
 1. ${chalk.green('Reward : 1 Crown + 30 Trophy + 35 Star ( Stumble Pass ) + 3000 EXP')}
 2. ${chalk.green('Reward : 20 Trophy + 30 Star ( Stumble Pass ) + 1500 EXP')}
@@ -70,11 +70,11 @@ Features :
                 console.log(`\r
 Sabar Memek Delay Biar Ga Ban!! 
 ♨  [${moment().format('HH:mm:ss')}]  -
-✓  ${chalk.magenta(`Negara By Zexxy : ${country}`)}
-✓  ${chalk.yellow(`Nama By Zexxy : ${username}`)}
-✓  ${chalk.cyan(`Exp By Zexxy: ${exp}`)}  
-✓  ${chalk.bgCyan(`Tropy By Zexxy : ${trophy}`)}  
-✓  ${chalk.bgRed(`Crown By Zexxy : ${crown}`)}
+✓  ${chalk.magenta(`Negara By Waf : ${country}`)}
+✓  ${chalk.yellow(`Nama By Waf : ${username}`)}
+✓  ${chalk.cyan(`Exp By Waf: ${exp}`)}  
+✓  ${chalk.bgCyan(`Tropy By Waf : ${trophy}`)}  
+✓  ${chalk.bgRed(`Crown By Waf : ${crown}`)}
 ✓  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
 
