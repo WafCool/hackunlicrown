@@ -70,12 +70,12 @@ Features :
                 console.log(`\r
 Sabar Memek Delay Biar Ga Ban!! 
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${chalk.magenta(`Negara By Zexxy : ${country}`)}
-→  ${chalk.yellow(`Nama By Zexxy : ${username}`)}
-→  ${chalk.cyan(`Exp By Zexxy: ${exp}`)}  
-→  ${chalk.blue(`Tropy By Zexxy : ${trophy}`)}  
-→  ${chalk.bgRed(`Crown By Zexxy : ${crown}`)}
-→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
+✓  ${chalk.magenta(`Negara By Zexxy : ${country}`)}
+✓  ${chalk.yellow(`Nama By Zexxy : ${username}`)}
+✓  ${chalk.cyan(`Exp By Zexxy: ${exp}`)}  
+✓  ${chalk.bgCyan(`Tropy By Zexxy : ${trophy}`)}  
+✓  ${chalk.bgRed(`Crown By Zexxy : ${crown}`)}
+✓  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
