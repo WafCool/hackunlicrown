@@ -31,10 +31,10 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
 ███████    ██     ██████  ██      ██ ██████  ███████ ███████    
 
-𝘽𝙔 : 𝙍𝘼𝙈𝘼𝙂𝙉𝙏𝙂
+𝘽𝙔 : Zexxy Gntg
                                                     
 
-By : ${chalk.red('@RamaGntg&& Dkmpostor')} - ${chalk.blue('Kullbanget/')}
+By : ${chalk.red('@Zexxy gntg && Lana')} - ${chalk.blue('Slebew/')}
 
 Features :
 
@@ -73,15 +73,15 @@ Features :
                 
                 console.log(`\r
 Sabar Bro Delay!! 
-${chalk.bgRed('BY Ramakull')}
+${chalk.bgRed('BY Zexxy')}
 
 ♨  [${moment().format('HH:mm:ss')}]  -
-→  ${chalk.magenta(`Negara By Ramakull : ${country}`)}
-→  ${chalk.yellow(`Nama By Ramakull : ${username}`)}
-→  ${chalk.cyan(`Exp By Ramakull: ${exp}`)}  
-→  ${chalk.blue(`Tropy By Ramakull : ${trophy}`)}  
-→  ${chalk.bgRed(`Crown By Ramakull : ${crown}`)}
-→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
+✓  ${chalk.magenta(`Negara By Zexxy : ${country}`)}
+✓  ${chalk.yellow(`Nama By Zexxy : ${username}`)}
+✓  ${chalk.cyan(`Exp By Zexxy: ${exp}`)}  
+✓  ${chalk.green(`Tropy By Zexxy : ${trophy}`)}  
+✓  ${chalk.bgRed(`Crown By Zexxy : ${crown}`)}
+✓  ${chalk.bgCyan(`Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
@@ -125,7 +125,7 @@ ${chalk.bgRed('BY Ramakull')}
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Aowkwok Kena Banned ! !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Akunya Ke Band kontol ! !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
