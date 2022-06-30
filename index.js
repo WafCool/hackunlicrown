@@ -30,25 +30,21 @@ const GoStumble = (code, auth) => new Promise((resolve, reject) => {
 ███████    ██    ██    ██ ██ ████ ██ ██████  ██      █████          
      ██    ██    ██    ██ ██  ██  ██ ██   ██ ██      ██            
 ███████    ██     ██████  ██      ██ ██████  ███████ ███████    
-
-𝘽𝙔 : Zexxy Gntg
+𝘽𝙔 : Zexxy
                                                     
-
-By : ${chalk.red('@Zexxy gntg && Lana')} - ${chalk.blue('Slebew/')}
-
+By : ${chalk.red('@Zexxy')} - ${chalk.blue('@Zexxy yang paling ganteng/')}
 Features :
-
 1. ${chalk.green('Reward : 1 Crown + 30 Trophy + 35 Star ( Stumble Pass ) + 3000 EXP')}
 2. ${chalk.green('Reward : 20 Trophy + 30 Star ( Stumble Pass ) + 1500 EXP')}
 3. ${chalk.green('Reward : 10 Trophy + 25 Star ( Stumble Pass ) + 500 EXP')}
 4. ${chalk.green('Reward : 20 Star ( Stumble Pass ) + 100 EXP')}
 `);
 
-    const feature = rs.question('[+] Pilih Nomor Gan : ');
+    const feature = rs.question('[+] Lu Mau No Brp Ngentod : ');
 
     if (feature == '1') {
 
-        const auth = rs.question('[+] Enter your auth token : ');
+        const auth = rs.question('[+] KODE AUTH LU : ');
         const time = rs.question('[+] Enter Delay in milisecond(5000 - 6500)( Ex : 1000 = 1 sec ) : '); // Input 0 for no delay ( High Risk)
         console.log('');
 
@@ -72,16 +68,14 @@ Features :
                 const crown = data.User.Crowns;
                 
                 console.log(`\r
-Sabar Bro Delay!! 
-${chalk.bgRed('BY Zexxy')}
-
+Sabar Memek Delay Biar Ga Ban!! 
 ♨  [${moment().format('HH:mm:ss')}]  -
-✓  ${chalk.magenta(`Negara By Zexxy : ${country}`)}
-✓  ${chalk.yellow(`Nama By Zexxy : ${username}`)}
-✓  ${chalk.cyan(`Exp By Zexxy: ${exp}`)}  
-✓  ${chalk.green(`Tropy By Zexxy : ${trophy}`)}  
-✓  ${chalk.bgRed(`Crown By Zexxy : ${crown}`)}
-✓  ${chalk.bgCyan(`Status : ✔ Success`)}`);
+→  ${chalk.magenta(`Negara By Zexxy : ${country}`)}
+→  ${chalk.yellow(`Nama By Zexxy : ${username}`)}
+→  ${chalk.cyan(`Exp By Zexxy: ${exp}`)}  
+→  ${chalk.blue(`Tropy By Zexxy : ${trophy}`)}  
+→  ${chalk.bgRed(`Crown By Zexxy : ${crown}`)}
+→  ${chalk.bgGreen(`Status : ✔ Success`)}`);
         await delay(time);
 
             } else if (result == 'BANNED') {
@@ -125,7 +119,7 @@ ${chalk.bgRed('BY Zexxy')}
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Akunya Ke Band kontol ! !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Aowkwok Kena Banned ! !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -159,12 +153,12 @@ ${chalk.bgRed('BY Zexxy')}
                 const tokenPass = data.User.BattlePass.PassTokens;
                 const trophy = data.User.SkillRating;
                 
-                
-                
+                console.log(chalk.green(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} |  ${chalk.blue(`Pass Star : ${tokenPass}`)}  | ${chalk.blue(`Trophy : ${trophy}`)}`));
+                await delay(time)
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Akun lu di ban kontol ! !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Aowkwok Kena Banned ! !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
@@ -197,12 +191,12 @@ ${chalk.bgRed('BY Zexxy')}
                 const exp = data.User.Experience;
                 const tokenPass = data.User.BattlePass.PassTokens;
                 
-                console.log(chalk.green(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} | ${chalk.blue(`Pass Star : ${tokenPass}`)}`));
+                console.log(chalk.cyan(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.red(`EXP : ${exp}`)} | ${chalk.green(`Pass Star : ${tokenPass}`)}`));
                 await delay(time)
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Aowkwok Kena Banned ! !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Akun Lu ke Ban kontol ! !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
