@@ -214,7 +214,7 @@ ${chalk.bgRed('BY Ramakull')}
 
     } else {
 
-        console.log(chalk.red(`\n[ ${moment().format('HH:mm:ss')} ] Wrong feature !`));
+        console.log(chalk7.red(`\n[ ${moment().format('HH:mm:ss')} ] Wrong feature !`));
 
     }
     
