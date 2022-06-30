@@ -159,12 +159,12 @@ ${chalk.bgRed('BY Zexxy')}
                 const tokenPass = data.User.BattlePass.PassTokens;
                 const trophy = data.User.SkillRating;
                 
-                console.log(chalk.green(`[ ${moment().format('HH:mm:ss')} ] Nickname : ${username} | Country : ${country} | ${chalk.blue(`EXP : ${exp}`)} |  ${chalk.blue(`Pass Star : ${tokenPass}`)}  | ${chalk.blue(`Trophy : ${trophy}`)}`));
-                await delay(time)
+                
+                
                 
             } else if (result == 'BANNED') {
 
-                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Aowkwok Kena Banned ! !`));
+                console.log(chalk.red(`[ ${moment().format('HH:mm:ss')} ] Akun lu di ban kontol ! !`));
                 break;
                 
             } else if (result == 'SERVER_ERROR') {
